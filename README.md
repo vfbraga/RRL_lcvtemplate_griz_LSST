@@ -6,7 +6,7 @@ All the instructions are provided in apply_template_examples.ipynb JuPyter noteb
 
 The mpfit module is included in astrolibpy which is a free third-party package (https://github.com/segasai/astrolibpy), but cannot be installed with pip3.
 
-The work is based on the ApJ paper [TBD]
+The work is based on the A&A paper [TBD]
 
 ## Installation
 
