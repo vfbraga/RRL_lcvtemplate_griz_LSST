@@ -2,7 +2,7 @@
 
 Examples for the use of the Radial Velocity templates in Braga+ 2024
 
-All the instructions are provided in apply_template_examples.ipynb JuPyter notebook.
+All the instructions are provided in apply_template_examples1.ipynb and apply_template_examples2.ipynb JuPyter notebooks.
 
 The mpfit module is included in astrolibpy which is a free third-party package (https://github.com/segasai/astrolibpy), but cannot be installed with pip3.
 
