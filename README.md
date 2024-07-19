@@ -10,6 +10,10 @@ The work is based on the A&A paper [TBD]
 
 ## Installation
 
-This package is not installed via pip, but by downloading the files to a local folder. Only the examples require Jupyter notebook, not the package itself.
+This package is not installed via pip, but by downloading the files to a local folder with the command
+
+git clone https://github.com/vfbraga/RRL_lcvtemplate_griz_LSST.git
+
+Only the examples require Jupyter notebook, not the package itself.
 
 Author: Vittorio Francesco Braga (vittorio.braga@inaf.it)
