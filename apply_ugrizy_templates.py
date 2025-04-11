@@ -9,7 +9,7 @@ from matplotlib import cm
 
 filter_dict_ZTF = {2:'zg', 3:'zr', 4:'zi'}
 inverted_filter_dict_ZTF = {v: k for k, v in filter_dict_ZTF.items()}
-filter_dict={2:'g', 3:'r', 4:'i'}
+filter_dict={2:'g', 3:'r', 4:'i',  5:'z'}
 templatebin_dict = {0:'RRc(g) 1', 1:'RRc(g) 2', 2:'RRc(g) 3', 
                         3:'RRc(r) 1', 4:'RRc(r) 2', 5:'RRc(r) 3', 
                         6:'RRc(i) 1', 7:'RRc(i) 2', 8:'RRc(i) 3', 
@@ -339,7 +339,7 @@ def apply_templatefit(HJD, mag, err, pulsation_type,
     yfit = four_for_templatefit(xfit, *popts[ind_best], filein)
     mag_mean = np.mean(yfit)
     errmag_mean = np.sqrt(np.diag(m.covar))[1]
-
+    
     if figure_out != '':
         fig = plt.figure(figsize=(10, 7))
         ax = fig.add_subplot(111)

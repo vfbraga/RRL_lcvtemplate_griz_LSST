@@ -351,7 +351,6 @@ def fourfit_simple(x, y, err, name, filter, subfolder_lcvs, findblazhko=False,
         ax3.invert_yaxis()
 
     for degree in starting_degree + np.arange(max_degree + 1 - starting_degree):
-        #         print('degree=',degree)
 #         print('---degree---')
 #         print(degree)
         a_init = [1.0, .1] * degree + [np.mean(y)]
